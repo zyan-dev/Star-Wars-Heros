@@ -42,5 +42,5 @@
       "typescript": {}
     }
   },
-  "ignorePatterns": ["*.test.tsx"]
+  "ignorePatterns": ["*.test.tsx", "/build"]
 }
