@@ -72,6 +72,10 @@ export const searchPeople = (dispatch: any) => (name: string, page: number) => {
         if (mp < page) dispatch({ type: SET_PAGE, payload: 1 });
       } else {
         dispatch({ type: SET_RESULT, payload: 'Not found' });
+        if (page > 1) {
+          searchPeople(dispatch)(name, 1);
+          dispatch({ type: SET_PAGE, payload: 1 });
+        }
       }
     })
     .catch((e) => {
