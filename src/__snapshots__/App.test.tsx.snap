@@ -1,0 +1,868 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing home page HomeProvider works correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="home-page"
+      >
+        <div
+          class="search-popup"
+        >
+          <div
+            class="header"
+          >
+            <p>
+              STAR WARS HEROES
+            </p>
+          </div>
+          <div
+            class="search-input-wrapper"
+          >
+            <p>
+              Character Name
+            </p>
+            <div
+              class="search-input"
+            >
+              <input
+                data-testid="search-input"
+                type="input"
+                value=""
+              />
+              <button
+                data-testid="search-submit"
+                type="button"
+              >
+                SEARCH
+              </button>
+            </div>
+          </div>
+          <div
+            class="result-view-wrapper"
+          >
+            <p
+              class="status"
+            />
+          </div>
+          <div
+            class="page-controller"
+          >
+            <button
+              data-testid="prev-page"
+              disabled=""
+              type="button"
+            >
+              &lt;
+            </button>
+            <span
+              data-testid="page-1"
+            >
+              Page 
+              1
+            </span>
+            <button
+              data-testid="next-page"
+              disabled=""
+              type="button"
+            >
+              &gt;
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="home-page"
+    >
+      <div
+        class="search-popup"
+      >
+        <div
+          class="header"
+        >
+          <p>
+            STAR WARS HEROES
+          </p>
+        </div>
+        <div
+          class="search-input-wrapper"
+        >
+          <p>
+            Character Name
+          </p>
+          <div
+            class="search-input"
+          >
+            <input
+              data-testid="search-input"
+              type="input"
+              value=""
+            />
+            <button
+              data-testid="search-submit"
+              type="button"
+            >
+              SEARCH
+            </button>
+          </div>
+        </div>
+        <div
+          class="result-view-wrapper"
+        >
+          <p
+            class="status"
+          />
+        </div>
+        <div
+          class="page-controller"
+        >
+          <button
+            data-testid="prev-page"
+            disabled=""
+            type="button"
+          >
+            &lt;
+          </button>
+          <span
+            data-testid="page-1"
+          >
+            Page 
+            1
+          </span>
+          <button
+            data-testid="next-page"
+            disabled=""
+            type="button"
+          >
+            &gt;
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing home page render filtered people correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="home-page"
+      >
+        <div
+          class="search-popup"
+        >
+          <div
+            class="header"
+          >
+            <p>
+              STAR WARS HEROES
+            </p>
+          </div>
+          <div
+            class="search-input-wrapper"
+          >
+            <p>
+              Character Name
+            </p>
+            <div
+              class="search-input"
+            >
+              <input
+                data-testid="search-input"
+                type="input"
+                value=""
+              />
+              <button
+                data-testid="search-submit"
+                type="button"
+              >
+                SEARCH
+              </button>
+            </div>
+          </div>
+          <div
+            class="result-view-wrapper"
+          >
+            <div>
+              <p
+                class="name"
+              >
+                1
+                . 
+                Luke Skywalker
+              </p>
+              <div
+                class="info-line"
+              >
+                <span>
+                  Gender
+                </span>
+                <span
+                  data-testid="gender"
+                >
+                  Male
+                </span>
+              </div>
+              <div
+                class="info-line"
+              >
+                <span>
+                  Birth Year
+                </span>
+                <span
+                  data-testid="birth_year"
+                >
+                  19 BBY
+                </span>
+              </div>
+              <div
+                class="info-line"
+              >
+                <span>
+                  Height
+                </span>
+                <span
+                  data-testid="height"
+                >
+                  172
+                </span>
+              </div>
+              <div
+                class="info-line"
+              >
+                <span>
+                  Mass
+                </span>
+                <span
+                  data-testid="mass"
+                >
+                  77
+                </span>
+              </div>
+              <div
+                class="info-line"
+              >
+                <span>
+                  Hair Color
+                </span>
+                <span
+                  data-testid="hair_color"
+                >
+                  Blond
+                </span>
+              </div>
+            </div>
+            <div>
+              <p
+                class="name"
+              >
+                2
+                . 
+                Jabba Desilijic Tiure
+              </p>
+              <div
+                class="info-line"
+              >
+                <span>
+                  Gender
+                </span>
+                <span
+                  data-testid="gender"
+                >
+                  Hermaphrodite
+                </span>
+              </div>
+              <div
+                class="info-line"
+              >
+                <span>
+                  Birth Year
+                </span>
+                <span
+                  data-testid="birth_year"
+                >
+                  600BBY
+                </span>
+              </div>
+              <div
+                class="info-line"
+              >
+                <span>
+                  Height
+                </span>
+                <span
+                  data-testid="height"
+                >
+                  175
+                </span>
+              </div>
+              <div
+                class="info-line"
+              >
+                <span>
+                  Mass
+                </span>
+                <span
+                  data-testid="mass"
+                >
+                  1,358
+                </span>
+              </div>
+              <div
+                class="info-line"
+              >
+                <span>
+                  Hair Color
+                </span>
+                <span
+                  data-testid="hair_color"
+                >
+                  n/a
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="page-controller"
+          >
+            <button
+              data-testid="prev-page"
+              disabled=""
+              type="button"
+            >
+              &lt;
+            </button>
+            <span
+              data-testid="page-1"
+            >
+              Page 
+              1
+            </span>
+            <button
+              data-testid="next-page"
+              disabled=""
+              type="button"
+            >
+              &gt;
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="home-page"
+    >
+      <div
+        class="search-popup"
+      >
+        <div
+          class="header"
+        >
+          <p>
+            STAR WARS HEROES
+          </p>
+        </div>
+        <div
+          class="search-input-wrapper"
+        >
+          <p>
+            Character Name
+          </p>
+          <div
+            class="search-input"
+          >
+            <input
+              data-testid="search-input"
+              type="input"
+              value=""
+            />
+            <button
+              data-testid="search-submit"
+              type="button"
+            >
+              SEARCH
+            </button>
+          </div>
+        </div>
+        <div
+          class="result-view-wrapper"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              1
+              . 
+              Luke Skywalker
+            </p>
+            <div
+              class="info-line"
+            >
+              <span>
+                Gender
+              </span>
+              <span
+                data-testid="gender"
+              >
+                Male
+              </span>
+            </div>
+            <div
+              class="info-line"
+            >
+              <span>
+                Birth Year
+              </span>
+              <span
+                data-testid="birth_year"
+              >
+                19 BBY
+              </span>
+            </div>
+            <div
+              class="info-line"
+            >
+              <span>
+                Height
+              </span>
+              <span
+                data-testid="height"
+              >
+                172
+              </span>
+            </div>
+            <div
+              class="info-line"
+            >
+              <span>
+                Mass
+              </span>
+              <span
+                data-testid="mass"
+              >
+                77
+              </span>
+            </div>
+            <div
+              class="info-line"
+            >
+              <span>
+                Hair Color
+              </span>
+              <span
+                data-testid="hair_color"
+              >
+                Blond
+              </span>
+            </div>
+          </div>
+          <div>
+            <p
+              class="name"
+            >
+              2
+              . 
+              Jabba Desilijic Tiure
+            </p>
+            <div
+              class="info-line"
+            >
+              <span>
+                Gender
+              </span>
+              <span
+                data-testid="gender"
+              >
+                Hermaphrodite
+              </span>
+            </div>
+            <div
+              class="info-line"
+            >
+              <span>
+                Birth Year
+              </span>
+              <span
+                data-testid="birth_year"
+              >
+                600BBY
+              </span>
+            </div>
+            <div
+              class="info-line"
+            >
+              <span>
+                Height
+              </span>
+              <span
+                data-testid="height"
+              >
+                175
+              </span>
+            </div>
+            <div
+              class="info-line"
+            >
+              <span>
+                Mass
+              </span>
+              <span
+                data-testid="mass"
+              >
+                1,358
+              </span>
+            </div>
+            <div
+              class="info-line"
+            >
+              <span>
+                Hair Color
+              </span>
+              <span
+                data-testid="hair_color"
+              >
+                n/a
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="page-controller"
+        >
+          <button
+            data-testid="prev-page"
+            disabled=""
+            type="button"
+          >
+            &lt;
+          </button>
+          <span
+            data-testid="page-1"
+          >
+            Page 
+            1
+          </span>
+          <button
+            data-testid="next-page"
+            disabled=""
+            type="button"
+          >
+            &gt;
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing home page renders search input and buttons correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="home-page"
+      >
+        <div
+          class="search-popup"
+        >
+          <div
+            class="header"
+          >
+            <p>
+              STAR WARS HEROES
+            </p>
+          </div>
+          <div
+            class="search-input-wrapper"
+          >
+            <p>
+              Character Name
+            </p>
+            <div
+              class="search-input"
+            >
+              <input
+                data-testid="search-input"
+                type="input"
+                value=""
+              />
+              <button
+                data-testid="search-submit"
+                type="button"
+              >
+                SEARCH
+              </button>
+            </div>
+          </div>
+          <div
+            class="result-view-wrapper"
+          >
+            <p
+              class="status"
+            />
+          </div>
+          <div
+            class="page-controller"
+          >
+            <button
+              data-testid="prev-page"
+              disabled=""
+              type="button"
+            >
+              &lt;
+            </button>
+            <span
+              data-testid="page-1"
+            >
+              Page 
+              1
+            </span>
+            <button
+              data-testid="next-page"
+              disabled=""
+              type="button"
+            >
+              &gt;
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="home-page"
+    >
+      <div
+        class="search-popup"
+      >
+        <div
+          class="header"
+        >
+          <p>
+            STAR WARS HEROES
+          </p>
+        </div>
+        <div
+          class="search-input-wrapper"
+        >
+          <p>
+            Character Name
+          </p>
+          <div
+            class="search-input"
+          >
+            <input
+              data-testid="search-input"
+              type="input"
+              value=""
+            />
+            <button
+              data-testid="search-submit"
+              type="button"
+            >
+              SEARCH
+            </button>
+          </div>
+        </div>
+        <div
+          class="result-view-wrapper"
+        >
+          <p
+            class="status"
+          />
+        </div>
+        <div
+          class="page-controller"
+        >
+          <button
+            data-testid="prev-page"
+            disabled=""
+            type="button"
+          >
+            &lt;
+          </button>
+          <span
+            data-testid="page-1"
+          >
+            Page 
+            1
+          </span>
+          <button
+            data-testid="next-page"
+            disabled=""
+            type="button"
+          >
+            &gt;
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
